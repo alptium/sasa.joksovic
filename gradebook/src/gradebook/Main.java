@@ -49,7 +49,7 @@ public class Main{
 		
 		
 		
-		double odgovor = ocenaStudenta1 + ocenaStudenta2 + ocenaStudenta2 + ocenaStudenta1 + ocenaStudenta1;
+		double odgovor = ocenaStudenta1 + ocenaStudenta2 + ocenaStudenta3 + ocenaStudenta4 + ocenaStudenta5;
 		
 		
 		System.out.println("Razred Gospodje Dzejms:");
