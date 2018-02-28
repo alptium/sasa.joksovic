@@ -75,12 +75,12 @@ public class Main {
 				result = firstNumber * secondNumber;		
 			} else if(operation.equals("/")) {
 				result = firstNumber / secondNumber;			
-		}
+			}
      
 			System.out.println("First number is: " + firstNumber);
 			System.out.println("Second number is: " + secondNumber);
 			System.out.println("The result is: " + result);
-				}
-}
+		}
+	}
 	
 }
