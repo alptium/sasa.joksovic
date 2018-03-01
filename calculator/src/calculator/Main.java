@@ -17,8 +17,7 @@ public class Main {
 			System.out.println("First number is: " + a);
 			System.out.println("Second number is: " + a1);
 			System.out.println("Sum is: " + c);
-			
-			
+				
 			System.out.println("Enter your first number");
 			int b = sc.nextInt();
 			System.out.println("Enter your second number");
@@ -29,8 +28,7 @@ public class Main {
 			System.out.println("First number is:" + b);
 			System.out.println("Second number is:" + b1);
 			System.out.println("Difference is:" + c1);
-			
-			
+				
 			System.out.println("Enter your first number");
 			int aa = sc.nextInt();
 			System.out.println("Enter your second number");
@@ -41,8 +39,7 @@ public class Main {
 			System.out.println("First number is: " + aa);
 			System.out.println("Second number is: " + aa1);
 			System.out.println("Produc is: " + cc);
-			
-			
+					
 			System.out.println("Enter your first number");
 			int bb = sc.nextInt();
 			System.out.println("Enter your second number");
@@ -53,8 +50,7 @@ public class Main {
 			System.out.println("First number is: " + bb);
 			System.out.println("Second number is: " + bb1);
 			System.out.println("Quotient is: " + cc1);
-			
-			
+					
 			System.out.println("Enter your first number");
 			int firstNumber = sc.nextInt();
 			
@@ -81,6 +77,5 @@ public class Main {
 			System.out.println("Second number is: " + secondNumber);
 			System.out.println("The result is: " + result);
 		}
-	}
-	
+	}	
 }
