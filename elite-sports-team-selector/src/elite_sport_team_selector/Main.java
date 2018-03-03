@@ -1,4 +1,4 @@
-package elite_sports_team_selector;
+package elite_sport_team_selector;
 
 import java.util.Scanner;
 
@@ -6,36 +6,40 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		// Basketball team
-		
 		try(Scanner sc = new Scanner(System.in)) {
-		
-			int age = 18;
-			char gender = 'M';
-			boolean hasExperience = true;
-			double salary = 563.33;
-		
-			System.out.println("In order to apply for this team fill out this form");
-			System.out.println("What is your age?");
-			int yourage = sc.nextInt();
-		
-			System.out.println("What is your gender?");
-			char yourgender = sc.next().charAt(0);
-		
-			System.out.println("I have experience: true or false?");
-			boolean yourExperience = sc.nextBoolean();
-		
-			System.out.println("What is your expected salary?");
-			double yourSalary = sc.nextDouble();
-		
-			if (hasExperience && salary >= 563.33 && age >= 18 && gender == 'M') {
-				System.out.println("Congratulation! You are accepted to basketball team!");	
-			} else {
-				System.out.println("We are sorry, your request has been rejected");
-			}
-		
-			}
-
-		}
-
-}
+				
+					int candidateAge = 16;
+					int candidateHeight = 150;
+					boolean candidateInjuries = false;
+											
+					System.out.println("Candidate form:");
+					
+					System.out.println("Your name is?");
+					String candidateName = sc.next();
+					
+					System.out.println("Your surname is?");
+					String candidateSurname = sc.next();
+					
+					System.out.println("age?");
+					int age = sc.nextInt();
+					
+					System.out.println("height?");
+					float height = sc.nextFloat();
+					
+					System.out.println("Do you have any injuries:true or false?");
+					boolean injuries = sc.nextBoolean();
+					
+					if (age >= 16 && height > 150 && injuries == false) {
+						System.out.println("The application is ACCEPTED");
+						System.out.println("the candidate meets the requirements for our club");	
+						
+						} else {
+							System.out.println("The application is REJECTED");
+							System.out.println("the candidate does not meet the requirements for our club");				
+							}
+							
+							System.out.println("Candidat -" + candidateName + " " + candidateSurname  +";  Age " + age + "; Height " + height + " "  );
+						}
+					}															
+				}
+			
