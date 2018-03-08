@@ -3,10 +3,10 @@ package elite_sport_team_selector;
 import java.util.Scanner;
 
 public class Main {
-
-	public static void main(String[] args) {
 		
-		try(Scanner sc = new Scanner(System.in)) {
+		public static void main(String[] args) {
+		
+			try(Scanner sc = new Scanner(System.in)) {
 				
 					int candidateAge = 16;
 					int candidateHeight = 150;
@@ -30,16 +30,16 @@ public class Main {
 					boolean injuries = sc.nextBoolean();
 					
 					if (age >= 16 && height > 150 && injuries == false) {
-						System.out.println("The application is ACCEPTED");
-						System.out.println("the candidate meets the requirements for our club");	
-						
-						} else {
-							System.out.println("The application is REJECTED");
-							System.out.println("the candidate does not meet the requirements for our club");				
+							System.out.println("The application is ACCEPTED");
+							System.out.println("the candidate meets the requirements for our club");
+												
+							} else {
+								System.out.println("The application is REJECTED");
+								System.out.println("the candidate does not meet the requirements for our club");				
+								}
+								
+								System.out.println("Candidat -" + candidateName + " " + candidateSurname  +";  Age " + age + "; Height " + height + " "  );
 							}
-							
-							System.out.println("Candidat -" + candidateName + " " + candidateSurname  +";  Age " + age + "; Height " + height + " "  );
-						}
-					}															
-				}
-			
+						}															
+					}
+				
