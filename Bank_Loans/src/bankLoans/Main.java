@@ -21,7 +21,7 @@ public class Main {
 			
 			if (loanType.equals("cash")) {
 			
-			System.out.println("Is your name?");
+			System.out.println("What is your name?");
 			String clientName = sc.next();
 			System.out.println("Is your surname?");
 			String clientSurName = sc.next();

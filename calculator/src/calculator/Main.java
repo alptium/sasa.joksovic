@@ -78,6 +78,7 @@ public class Main {
 			System.out.println("Second number is: " + secondNumber);
 			System.out.println("The result is: " + result);
 		}
+		
 	}
 	
 }
