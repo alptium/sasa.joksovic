@@ -55,6 +55,6 @@ public class Main{
 										
 			System.out.println("The total sum of the grades is:" +  sumOfAllGrades);
 																	
-	}
-		}
 			}
+		}
+	}
