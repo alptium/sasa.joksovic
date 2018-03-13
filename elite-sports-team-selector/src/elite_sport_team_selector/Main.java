@@ -38,7 +38,7 @@ public class Main {
 								System.out.println("the candidate does not meet the requirements for our club");				
 								}
 								
-									System.out.println("Candidat -" + candidateName + " " + candidateSurname  +";  Age " + age + "; Height " + height + " "  );
+									System.out.println("Candidat -" + candidateName + " " + candidateSurname  +";  Age:" + candidateAge + "; Height:" + candidateHeight + "; Candidate Injuries:" + candidateInjuries );
 							}
 						}															
 					}
