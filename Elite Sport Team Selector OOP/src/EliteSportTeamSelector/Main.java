@@ -1,4 +1,4 @@
-package elite_sport_team_selector;
+package EliteSportTeamSelector;
 
 import java.util.Scanner;
 

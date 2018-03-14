@@ -1,4 +1,4 @@
-package elite_sport_team_selector;
+package EliteSportTeamSelector;
 
 public class TeamQuestionnaire {
 
@@ -15,20 +15,19 @@ public class TeamQuestionnaire {
 			this.candidateHeight = candidateHeight;
 			this.candidateInjuries = candidateInjuries;
 			}
+		
 			//Method of the class TeamQuestionnaire
 	
-			public int getCandidateAge() {
-				return candidateAge;
-			}
-	
-				public int getCandidateHeight() {
-					return candidateHeight;
-				
+				public int getCandidateAge() {
+					return candidateAge;
 				}
-	
-					public boolean getCandidateInjuries() {
-						return candidateInjuries;
-						
+				
+					public int getCandidateHeight() {
+						return candidateHeight;
+					}
+					
+						public boolean getCandidateInjuries() {
+							return candidateInjuries;						
 	}
 	
 }
