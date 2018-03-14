@@ -29,6 +29,5 @@ public class TeamQuestionnaire {
 						public boolean getCandidateInjuries() {
 							return candidateInjuries;						
 	}
-	
 }
 
