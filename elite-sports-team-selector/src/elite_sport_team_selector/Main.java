@@ -39,7 +39,7 @@ public class Main {
 								}
 								
 									System.out.println("Candidat -" + candidateName + " " + candidateSurname  +";  Age:" + candidateAge + "; Height:" + candidateHeight + "; Candidate Injuries:" + candidateInjuries );
-							}
-						}															
-					}
+		}
+	}															
+}
 				
