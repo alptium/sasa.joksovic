@@ -47,14 +47,13 @@ public class Main{
 								
 			System.out.println("Class of the Mrs.James:");
 								
-			System.out.println("Student -" + student1 + " " + student1surname  +" grade is " + grade1);
-			System.out.println("Student -" + student2 + " " + student2surname  +" grade is " + grade2);
-			System.out.println("Student -" + student3 + " " + student3surname  +" grade is " + grade3);
-			System.out.println("Student -" + student4 + " " + student4surname  +" grade is " + grade4);
-			System.out.println("Student -" + student5 + " " + student5surname  +" grade is " + grade5);
-										
-			System.out.println("The total sum of the grades is:" +  sumOfAllGrades);
-																	
+			System.out.println("Student -" + student1 + " " + student1surname + " grade is " + grade1);
+			System.out.println("Student -" + student2 + " " + student2surname + " grade is " + grade2);
+			System.out.println("Student -" + student3 + " " + student3surname + " grade is " + grade3);
+			System.out.println("Student -" + student4 + " " + student4surname + " grade is " + grade4);
+			System.out.println("Student -" + student5 + " " + student5surname + " grade is " + grade5);			
+			System.out.println("________________________________________________");							
+			System.out.println("The total sum of the grades is:" + sumOfAllGrades);																	
 		}
 	}	
 }
