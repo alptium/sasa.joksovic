@@ -26,8 +26,7 @@ public class Main {
 					
 			if (age >= 16 && height > 150 && injuries == false) {
 				System.out.println("The application is ACCEPTED");
-				System.out.println("the candidate meets the requirements for our club");
-												
+				System.out.println("the candidate meets the requirements for our club");											
 			} else {
 					System.out.println("The application is REJECTED");
 					System.out.println("the candidate does not meet the requirements for our club");				
