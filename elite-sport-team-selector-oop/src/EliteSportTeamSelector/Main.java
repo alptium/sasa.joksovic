@@ -25,15 +25,15 @@ public class Main {
 			boolean injuries = sc.nextBoolean();
 					
 			if (age >= 16 && height > 150 && injuries == false) {
-					System.out.println("The application is ACCEPTED");
-					System.out.println("the candidate meets the requirements for our club");
+				System.out.println("The application is ACCEPTED");
+				System.out.println("the candidate meets the requirements for our club");
 												
-					} else {
-						System.out.println("The application is REJECTED");
-						System.out.println("the candidate does not meet the requirements for our club");				
-						}
+				} else {
+					System.out.println("The application is REJECTED");
+					System.out.println("the candidate does not meet the requirements for our club");				
+					}
 								
-							System.out.println("Candidat -" + candidateName + " " + candidateSurname  +";  Age:" + age + "; Height:" + height + "; Candidate Injuries:" + injuries );
+						System.out.println("Candidat -" + candidateName + " " + candidateSurname  +";  Age:" + age + "; Height:" + height + "; Candidate Injuries:" + injuries );
 		}
 	}															
 }
