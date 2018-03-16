@@ -21,14 +21,14 @@ public class TeamQuestionnaire {
 			public int getCandidateAge() {
 				return candidateAge;
 			}
-				
+					
 				public int getCandidateHeight() {
 					return candidateHeight;
-					
-					}
-					
-					public boolean getCandidateInjuries() {
-						return candidateInjuries;						
+						
+			}
+						
+				public boolean getCandidateInjuries() {
+					return candidateInjuries;						
 	}
 }
 
