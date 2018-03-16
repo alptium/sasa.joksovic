@@ -28,10 +28,10 @@ public class Main {
 				System.out.println("The application is ACCEPTED");
 				System.out.println("the candidate meets the requirements for our club");
 												
-				} else {
+			} else {
 					System.out.println("The application is REJECTED");
 					System.out.println("the candidate does not meet the requirements for our club");				
-					}
+			}
 								
 						System.out.println("Candidat -" + candidateName + " " + candidateSurname  +";  Age:" + age + "; Height:" + height + "; Candidate Injuries:" + injuries );
 		}

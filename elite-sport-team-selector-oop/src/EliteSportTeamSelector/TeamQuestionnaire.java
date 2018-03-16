@@ -24,7 +24,8 @@ public class TeamQuestionnaire {
 				
 				public int getCandidateHeight() {
 					return candidateHeight;
-				}
+					
+					}
 					
 					public boolean getCandidateInjuries() {
 						return candidateInjuries;						
