@@ -28,9 +28,9 @@ public class Main {
 					
 					try(Scanner sc = new Scanner(System.in)) {
 							
-						System.out.println("What is your name?");
+						System.out.println("Your name is?");
 						String clientName = sc.next();
-						System.out.println("Is your surname?");
+						System.out.println("Your surname is?");
 						String clientSurName = sc.next();
 						System.out.println("How old are you?");
 						int ageClient = sc.nextInt();
@@ -58,9 +58,9 @@ public class Main {
 							
 							try(Scanner sc = new Scanner(System.in)) {
 					
-								System.out.println("What is your name?");
+								System.out.println("Your name is?");
 								String clientName = sc.next();
-								System.out.println("Is your surname?");
+								System.out.println("Your surname is?");
 								String clientSurName = sc.next();
 								System.out.println("How old are you?");
 								int ageClient = sc.nextInt();
