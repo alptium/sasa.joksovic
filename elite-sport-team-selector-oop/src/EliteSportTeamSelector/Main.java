@@ -8,19 +8,16 @@ public class Main {
 		
 		try(Scanner sc = new Scanner(System.in)) {
 														
-			System.out.println("Candidate form:");					
+			System.out.println("Candidate form:");
+			
 			System.out.println("Your name is?");
-			String candidateName = sc.next();
-					
+			String candidateName = sc.next();		
 			System.out.println("Your surname is?");
-			String candidateSurname = sc.next();
-					
+			String candidateSurname = sc.next();		
 			System.out.println("age?");
-			int age = sc.nextInt();
-					
+			int age = sc.nextInt();		
 			System.out.println("height?");
-			float height = sc.nextFloat();
-					
+			float height = sc.nextFloat();		
 			System.out.println("Do you have any injuries:true or false?");
 			boolean injuries = sc.nextBoolean();
 					

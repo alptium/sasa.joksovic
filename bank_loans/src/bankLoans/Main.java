@@ -18,7 +18,7 @@ public class Main {
 				runDemoCashLoans();
 			}else if ("car".equals(detailsType)) {
 				rundemoCarLoans();
-				
+			
 		}
 	}	
 }				
