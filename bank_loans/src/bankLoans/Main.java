@@ -1,5 +1,6 @@
 package bankLoans;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -23,7 +24,7 @@ public class Main {
 	}	
 }				
 						////Cash Loans///
-				
+	ArrayList<CashLoans> patients = new ArrayList<CashLoans>();
 				private static void runDemoCashLoans() {
 					
 					try(Scanner sc = new Scanner(System.in)) {
